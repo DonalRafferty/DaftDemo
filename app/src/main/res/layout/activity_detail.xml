@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Main Layout of the Detail Activity-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/steelWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.donalrafferty.daftdemo.DetailActivity">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/image_advert"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:transitionName="@string/activity_transition_daft"/>
+
+        <TextView
+            android:id="@+id/text_price_detail"
+            style="@style/RobotoTextViewStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/text_address_detail"
+            style="@style/RobotoTextViewStyleNormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" />
+
+        <include layout="@layout/detail_sub_section"></include>
+
+        <include layout="@layout/detail_type_section"></include>
+
+        <include layout="@layout/detail_desc_section"></include>
+
+        <include layout="@layout/detail_contact_section"></include>
+
+    </LinearLayout>
+
+</ScrollView>

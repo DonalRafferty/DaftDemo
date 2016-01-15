@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DaftDemo</string>
+
+    <string name="url_host">http://api.daft.com/v2/json/search_sale?parameters=</string>
+    <string name="url_host_encoded">{\"api_key\":\"ENTER API KEY HERE\",\"query\":{\"perpage\":50}}</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="activity_transition_daft">transition_daft</string>
+    <string name="desc">Description</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="prop_type">Property Type: </string>
+    <string name="euro">€</string>
+    <string name="dear_greeting">Dear</string>
+    <string name="send_email">Send Email</string>
+</resources>
